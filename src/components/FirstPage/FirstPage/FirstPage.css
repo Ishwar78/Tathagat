@@ -25,7 +25,7 @@
   
   .firstpage-hero-tagline {
     color: #f25c54;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: 1px;
     padding: 0px 20px;
     font-weight: 500;
