@@ -357,3 +357,7 @@
   }
 }
 
+section.firstpage-hero-container .firstpage-hero-heading,
+section.firstpage-hero-container .firstpage-hero-heading * {
+  text-transform: none !important;
+}
