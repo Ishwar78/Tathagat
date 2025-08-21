@@ -60,7 +60,7 @@
     /* font-size: clamp(20px, 7vw, 38px); */
     font-size: 29px;
     line-height: 1.2;
-    max-width: 90%;
+    max-width: 100%;
     text-align: center;   /* mobile pe center zyada neat lagta */
     margin-inline: auto;
   }
@@ -129,6 +129,7 @@
     flex-wrap: nowrap;     
     overflow-x: auto;        /* horizontal scroll */
     white-space: nowrap;     /* ensure inline */
+    max-height: 400px;
   }
 
   .tt-team-card {
@@ -829,7 +830,7 @@
     font-size: 29px;
     margin-bottom: 6px;
     text-align: left;
-    margin-top: -60px;
+    margin-top: -40px;
   }
 
   .tt-team-description {

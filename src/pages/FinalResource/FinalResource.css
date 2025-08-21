@@ -1404,11 +1404,11 @@ padding: 60px;
   }
 
   .m-buttons .m-btn, .b-btn, .c-attempt-btn {
-    width: 100%;
+    width: 90%;
     font-size: 11px;
     padding: 6px 5px;
     width: 140px;
-    margin-left: 110px;
+    margin-left: 95px;
   }
 
   .b-category-list {
@@ -1596,7 +1596,7 @@ letter-spacing: 0%;
   .tgsm-title {
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-left: 5px;
     font-size: 28px;
     /* margin-top: -5px; */

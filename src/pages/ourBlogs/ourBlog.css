@@ -66,6 +66,7 @@
   @media (max-width: 768px) {
     .blog-contenting {
       padding-left: 10px;
+      margin-top: 70px;
     }
   
     .blog-contenting h1 {

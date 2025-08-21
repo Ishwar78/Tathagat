@@ -72,7 +72,7 @@ const FirstPage = () => {
           <p className="firstpage-hero-tagline">DREAM BIG. PREPARE SMART. ACHIEVE MORE.</p>
           <h1 className="firstpage-hero-heading">
             Start Your Journey<br />
-            Towards a <span className="highlight">99%ilers!</span>
+            Towards a <span className="highlight">99%ile!</span>
           </h1>
         </div>
 

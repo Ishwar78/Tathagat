@@ -805,7 +805,8 @@ body {
   .description {
     font-size: 16px;
   }
-  .stats {margin-left: 60px;
+  .stats {
+    /* margin-left: 60px; */
     
     font-size: 32px;
   }
