@@ -1513,6 +1513,35 @@ padding: 60px;
 
 
 
+/* ✅ Mobile View Buttons with Reduced Gap */
+@media (max-width: 420px) {
+  .m-buttons-wrapper {
+    width: 100%;
+    padding: 4px 8px;
+    box-sizing: border-box;
+  }
+
+  .m-buttons {
+    display: flex;
+    flex-wrap: wrap;       /* 2–2 buttons ek line me */
+    justify-content: center;
+    gap: 8px;              /* gap kam kar diya */
+  }
+
+  .m-btn {
+    flex: 1 1 45%;         /* 2 button per row, thoda responsive */
+    min-width: 140px;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+  }
+}
+
+
+
+
+
 
 
 
