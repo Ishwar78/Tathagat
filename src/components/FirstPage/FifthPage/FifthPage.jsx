@@ -80,8 +80,8 @@ const FifthPage = () => {
 
         <div className="tgf-learning-cards">
           {[
-            { number: "01", title: "Building a Strong Foundation", desc: "Our interactive live classes, spanning over 800 hours, ensure that every concept is taught from the very basic level to the most advanced, leaving no room for assumptions. This ensures a solid understanding, regardless of your prior knowledge", color: "#F9B233", image: learn6 },
-            { number: "02", title: "Concept Application", desc: " Our application classes focus on demonstrating how to use the learned concepts to solve problems, thereby strengthening your understanding and building confidence", color: "#F9B233", image: learn2 },
+            { number: "01", title: "Building a Strong Foundation", desc: "Our interactive live classes, spanning over 800 hours, ensure that every concept is taught from the very basic level to the most advanced, leaving no room for assumptions. This ensures a solid understanding, regardless of your prior knowledge", color: "#FDB035", image: learn6 },
+            { number: "02", title: "Concept Application", desc: " Our application classes focus on demonstrating how to use the learned concepts to solve problems, thereby strengthening your understanding and building confidence", color: "#FF9D23", image: learn2 },
             { number: "03", title: "Intensive Practice", desc: " We believe in learning by doing. Our practice sessions go beyond direct application, challenging you with a wider pool of questions that often involve the simultaneous application of multiple concepts, making you truly .", color: "#F77A4B", image: learn4 },
             { number: "04", title: "The Power of Workshops", desc: " These question-intensive sessions provide an unparalleled opportunity for focused practice, revision, application, and strategy development on key topics. Students often find that attending a workshop transforms them into a .", color: "#F77A4B", image: learn5 }
           ].map((card, idx) => (
