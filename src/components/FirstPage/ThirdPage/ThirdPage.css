@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: flex-end;
   flex-wrap: wrap;
-}
+} 
 
 /* Left Heading Block */
 .catresults-heading-block {
@@ -399,12 +399,13 @@
 
   .catresults-label {
     font-size: 14px;
+    margin-top: -40px;
   }
 
   .catresults-stats {
     /* gap: 16px; */
-    margin-left: -50px;
-    /* margin-top: -30px; */
+    margin-left: -30px;
+    margin-top: -30px;
   }
 
   .catresults-box {

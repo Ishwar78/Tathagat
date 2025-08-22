@@ -188,7 +188,7 @@ function Testimonial() {
                 </div>
                 <div className="ts-award-col ts-rank">1st</div>
                 <div className="ts-award-col ts-summary">
-                  Ranked No. 1 among 36 coaching institutes ute in Delhi
+                  Ranked No. 1 among 36 coaching institutes in Delhi
                 </div>
               </div>
 
