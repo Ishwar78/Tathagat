@@ -63,7 +63,7 @@ body {
   margin-bottom: 30px;
 }
 
-.ts-counters {
+.ts-countering {
    position: relative;
   top: -20px;
   display: flex;
@@ -73,7 +73,7 @@ body {
   margin-bottom: 30px;
 }
 
-.ts-counters h3 {
+.ts-countering h3 {
    /* position: relative;
   top: -20px; */
   font-size: 58px;
@@ -84,7 +84,7 @@ body {
   font-weight: 700;
 }
 
-.ts-counters p {
+.ts-countering p {
    position: relative;
   top: -15px;
   left: 10px;
@@ -525,16 +525,16 @@ body {
   
 }
 @media (max-width: 480px) {
-  .ts-counters {
+  .ts-countering {
     gap: 10px;
     padding: 10px 5px;
   }
 
-  .ts-counters h3 {
+  .ts-countering h3 {
     font-size: 24px;
   }
 
-  .ts-counters p {
+  .ts-countering p {
     font-size: 13px;
   }
 }
@@ -1866,7 +1866,7 @@ color: gray;
 }
   .ts-desc,
   .ts-btn,
-  .ts-counters,
+  .ts-countering,
   .ts-awards {
     position: static !important;
     text-align: left;
@@ -1876,11 +1876,11 @@ color: gray;
     left: 0 !important;
   }
 
-  .ts-counters {
-    flex-direction: column !important;
+  .ts-countering {
+    /* flex-direction: column !important; */
     align-items: center !important;
   }
-.ts-counters {
+.ts-countering {
   display: flex;
   gap: 10px;
   overflow-x: auto;     /* horizontal scroll bar enable */
@@ -1890,7 +1890,7 @@ color: gray;
   white-space: nowrap;  /* items ek line me hi rahein */
 }
 
-.ts-counters div {
+.ts-countering div {
   flex: 0 0 auto;
   min-width: 100px;  
   max-height: 130px;
@@ -1900,16 +1900,16 @@ color: gray;
   padding: 6px;
 }
 
-.ts-counters::-webkit-scrollbar {
+.ts-countering::-webkit-scrollbar {
   height: 8px;
 }
 
-.ts-counters::-webkit-scrollbar-thumb {
+.ts-countering::-webkit-scrollbar-thumb {
   background: #666;
   border-radius: 4px;
 }
 
-.ts-counters::-webkit-scrollbar-track {
+.ts-countering::-webkit-scrollbar-track {
   background: #ddd;
 }
 @media (max-width: 768px) {
@@ -2060,8 +2060,8 @@ color: gray;
   -ms-overflow-style: none;
   }
 
-  .ts-counters {
-    flex-direction: column;
+  .ts-countering {
+    /* flex-direction: column; */
     align-items: center;
   }
 
@@ -2089,6 +2089,54 @@ color: gray;
 }
 
 
+/* ✅ TathaGat Right Box — Mobile Fix (iPhone/Android) */
+@media (max-width: 768px) {
+  .tgL-section {
+    padding: 16px 12px !important;
+  }
+
+  .tgL-right {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .tgL-box {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+    padding: 16px !important;      /* content chipke nahin */
+    margin: 0 auto !important;     /* center + no overflow */
+    border-radius: inherit;         /* jo pehle se hai wahi rahe */
+  }
+
+  .tgL-box-heading {
+    font-size: 20px;                /* readable on mobile */
+    line-height: 1.3;
+  }
+
+  .tgL-box-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 8px;
+  }
+
+  .tgL-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .tgL-badge {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}
+
+/* 💡 safety: kisi container ke padding + width ki wajah se
+   horizontal scroll aa raha ho to yeh last resort rakhna */
+html, body { overflow-x: hidden; }
 
 
 

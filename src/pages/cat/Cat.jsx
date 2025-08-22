@@ -675,7 +675,7 @@ const Cat = () => {
         <LazyLoadImage src={s.img} alt={s.name} />
         <div className="tgc-overlay">{s.name}</div>
       </div>
-      <p className="tgc-score-text">{s.score}</p>
+      <p className="tgc-score-text">{s.score}</p> 
     </div>
   ))}
 </div>

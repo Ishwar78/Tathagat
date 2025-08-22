@@ -144,6 +144,7 @@
 
   .ta-experience-heading {
     margin-top: 10px;
+            display: none;
   }
 
   .ta-subtext {
@@ -310,7 +311,7 @@
 
 
   
-  
+
   
   
   .timeline-container{
@@ -1484,4 +1485,51 @@
     flex-direction: column;
     gap: 20px;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ✅ Timeline mobile fix — same design, no extras */
+@media (max-width: 480px) {
+  .timeline-row {
+    --shift: 0px !important;          /* desktop stagger off */
+    display: flex;
+    flex-direction: column;            /* one by one */
+    gap: 8px;
+    padding: 12px 0;
+  }
+
+  /* sab columns/boxes ko normal flow me lao */
+  .year-col, .icon-col, .content-col {
+    position: static !important;
+    width: 100%;
+  }
+  .year-abs, .icon-abs, .content-abs {
+    position: static !important;
+    left: auto; top: auto; transform: none;
+    width: 100%;
+  }
+
+  /* icon beech me */
+  .timeline-icon-wrapper { 
+    margin: 0 auto; 
+  }
+
+  /* vertical line mobile me band (overlap avoid) */
+  .vline { 
+    display: none; 
+  }
+
+  /* spacing */
+  .content-abs { margin-top: 4px; }
+  .timeline-row:not(:last-child) { margin-bottom: 10px; }
 }

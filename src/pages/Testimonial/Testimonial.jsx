@@ -171,7 +171,7 @@ function Testimonial() {
             </p>
             <button className="ts-btn">Book a Free Counselling</button>
 
-            <div className="ts-counters">
+            <div className="ts-countering">
               <div><h3>2000+</h3><p>Google Reviews</p></div>
               <div><h3>12000+</h3><p>Class Reviews</p></div>
               <div><h3>5000+</h3><p>Chats Reviews</p></div>
@@ -226,7 +226,7 @@ function Testimonial() {
           </div>
 
 
-
+ 
           <div className="tgL-right">
             <div className="tgL-box">
               <div className="tgL-box-heading">

@@ -302,6 +302,17 @@
 
 
 
+/* ✅ Mobile View Fix */
+@media (max-width: 420px) {
+  .latest-title {
+    font-size: 38px;          /* 58 → 28 for mobile */
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #111;
+    font-family: 'DM Serif Display', serif;
+            /* thoda side space */
+  }
+}
 
 
 
